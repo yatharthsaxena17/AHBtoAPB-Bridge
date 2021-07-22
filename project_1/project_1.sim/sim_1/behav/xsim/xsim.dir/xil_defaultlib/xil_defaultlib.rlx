@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/VLSI_Project/RTL/abp_interface.v,1623995385,verilog,,D:/VLSI_Project/RTL/ahb_master.v,,apb_interface,,,../../../../../RTL,,,,,
+D:/VLSI_Project/RTL/ahb_master.v,1623995232,verilog,,D:/VLSI_Project/RTL/ahb_slave.v,D:/VLSI_Project/RTL/define.v,ahb_master,,,../../../../../RTL,,,,,
+D:/VLSI_Project/RTL/ahb_slave.v,1623995336,verilog,,D:/VLSI_Project/RTL/bridge_top.v,D:/VLSI_Project/RTL/define.v,ahb_slave,,,../../../../../RTL,,,,,
+D:/VLSI_Project/RTL/bridge_top.v,1623995439,verilog,,D:/VLSI_Project/RTL/fsm.v,,bridge_top,,,../../../../../RTL,,,,,
+D:/VLSI_Project/RTL/define.v,1623995041,verilog,,,,,,,,,,,,
+D:/VLSI_Project/RTL/fsm.v,1623995505,verilog,,D:/VLSI_Project/TB/bridge_top_tb.v,D:/VLSI_Project/RTL/define.v,fsm,,,../../../../../RTL,,,,,
+D:/VLSI_Project/TB/bridge_top_tb.v,1624363960,verilog,,,D:/VLSI_Project/RTL/define.v,bridge_top_tb,,,../../../../../RTL,,,,,
+D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,

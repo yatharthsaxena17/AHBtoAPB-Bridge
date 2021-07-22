@@ -1,0 +1,7 @@
+Running: xsim.dir/bridge_top_tb_behav/xsimk.exe -simmode gui -wdb bridge_top_tb_behav.wdb -simrunnum 0 -socket 60898
+Design successfully loaded
+Design Loading Memory Usage: 5416 KB (Peak: 5416 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6196 KB (Peak: 6196 KB)
+Simulation CPU Usage: 46 ms

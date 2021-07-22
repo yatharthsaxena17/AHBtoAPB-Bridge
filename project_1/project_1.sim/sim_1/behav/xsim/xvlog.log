@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/abp_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/ahb_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ahb_master
+WARNING: [VRFC 10-159] /* in comment [D:/VLSI_Project/RTL/ahb_master.v:213]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/ahb_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ahb_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/bridge_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/TB/bridge_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_top_tb

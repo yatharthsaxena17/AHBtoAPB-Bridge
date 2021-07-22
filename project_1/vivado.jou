@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jun 22 17:39:02 2021
+# Process ID: 9276
+# Current directory: D:/VLSI_Project/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5656 D:\VLSI_Project\project_1\project_1.xpr
+# Log file: D:/VLSI_Project/project_1/vivado.log
+# Journal file: D:/VLSI_Project/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VLSI_Project/project_1/project_1.xpr
+launch_simulation
+source bridge_top_tb.tcl
+close_sim
+launch_simulation
+source bridge_top_tb.tcl

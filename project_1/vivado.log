@@ -1,0 +1,172 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jun 22 17:39:02 2021
+# Process ID: 9276
+# Current directory: D:/VLSI_Project/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5656 D:\VLSI_Project\project_1\project_1.xpr
+# Log file: D:/VLSI_Project/project_1/vivado.log
+# Journal file: D:/VLSI_Project/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VLSI_Project/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 677.105 ; gain = 39.262
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bridge_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj bridge_top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/abp_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/ahb_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ahb_master
+WARNING: [VRFC 10-159] /* in comment [D:/VLSI_Project/RTL/ahb_master.v:213]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/ahb_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ahb_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/bridge_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/TB/bridge_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 3d4da64a6c264521903ec0dddc5a6684 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bridge_top_tb_behav xil_defaultlib.bridge_top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3d4da64a6c264521903ec0dddc5a6684 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bridge_top_tb_behav xil_defaultlib.bridge_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ahb_master
+Compiling module xil_defaultlib.apb_interface
+Compiling module xil_defaultlib.ahb_slave
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.bridge_top
+Compiling module xil_defaultlib.bridge_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bridge_top_tb_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/bridge_top_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/bridge_top_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Jun 22 17:41:38 2021. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 109.859 ; gain = 17.488
+INFO: [Common 17-206] Exiting Webtalk at Tue Jun 22 17:41:38 2021...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 749.270 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bridge_top_tb_behav -key {Behavioral:sim_1:Functional:bridge_top_tb} -tclbatch {bridge_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source bridge_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 1 us : File "D:/VLSI_Project/TB/bridge_top_tb.v" Line 64
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 778.156 ; gain = 28.887
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bridge_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 779.324 ; gain = 30.055
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 787.527 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bridge_top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj bridge_top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/abp_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/ahb_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ahb_master
+WARNING: [VRFC 10-159] /* in comment [D:/VLSI_Project/RTL/ahb_master.v:213]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/ahb_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ahb_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/bridge_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/RTL/fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VLSI_Project/TB/bridge_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 3d4da64a6c264521903ec0dddc5a6684 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bridge_top_tb_behav xil_defaultlib.bridge_top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3d4da64a6c264521903ec0dddc5a6684 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bridge_top_tb_behav xil_defaultlib.bridge_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ahb_master
+Compiling module xil_defaultlib.apb_interface
+Compiling module xil_defaultlib.ahb_slave
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.bridge_top
+Compiling module xil_defaultlib.bridge_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bridge_top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/VLSI_Project/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bridge_top_tb_behav -key {Behavioral:sim_1:Functional:bridge_top_tb} -tclbatch {bridge_top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source bridge_top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 1 us : File "D:/VLSI_Project/TB/bridge_top_tb.v" Line 64
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bridge_top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 787.527 ; gain = 0.000

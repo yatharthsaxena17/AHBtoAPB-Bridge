@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../RTL" \
+"../../../../../RTL/abp_interface.v" \
+"../../../../../RTL/ahb_master.v" \
+"../../../../../RTL/ahb_slave.v" \
+"../../../../../RTL/bridge_top.v" \
+"../../../../../RTL/fsm.v" \
+"../../../../../TB/bridge_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
